@@ -1,0 +1,808 @@
+/* Body CSS */
+body{
+font-family: 'Prompt', sans-serif;
+font-size: 16px;
+background-image: url(../images/background.jpg);
+margin-top: 0;
+}
+/* Wrapper CSS */
+#wrapper{
+width: 960px;
+background-color: #fff;
+margin: 0 auto;
+position: relative;
+min-height: 200px;
+}
+header{
+
+position: fixed;
+width: 960px;
+left: 0px;
+top: 0px;
+width: 100%;
+z-index: 1001;
+}
+/* Utility Navigation  CSS */
+#utility-nav{
+display: inline-block;
+height: 64px;
+background: #000;
+width: 960px;
+position: relative;
+margin: 0 auto;
+border-radius: 10px
+}
+
+#topnav input[type=text] {
+float: right;
+padding: 10px;
+margin-top: 8px;
+margin-right: 16px;
+border: none;
+font-size: 17px;
+}
+#utility-nav ul{
+float: right;
+margin: 0;
+padding: 0;
+    }
+#utility-nav ul li{
+font-size: 11px;
+display: inline-block;
+list-style-type: none;
+vertical-align: middle;
+}
+#utility-nav ul li a{
+font-size: 16px;
+padding: 8px;
+display: block;
+text-decoration: none;
+color:#fff;
+font-size: 15px;
+transition: all ease-in-out .3s;
+}
+#utility-nav ul li a:hover{
+color: #800;
+background-color: #999;
+}
+#utility-nav ul li:hover a{
+color: #800;
+background-color: #999;
+}
+#imgcontainer #avt {
+margin: 0;
+}
+/* Body Inner header CSS  */
+header #inner_header{
+height: 100px;
+width: 960px;
+position: relative;
+margin: 0 auto;
+clear: both;
+        
+}
+/* elements hide */
+header #mob{
+display: none;
+}
+#mob-nav{
+display: none;
+}
+#mob-logo{
+display: none;
+}
+/* SignUP CSS */
+.container input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+/* Set a style for  button */
+.container button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+width: auto;
+
+background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+
+img.avatar {
+width: 40%;
+border-radius: 50%;
+margin-left: 250px;
+}
+
+.container {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* The Modal (background) */
+#id01 {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border: 1px solid #888;
+width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+position: absolute;
+right: 25px;
+top: 0;
+color: #000;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: red;
+cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/* End of Sign Up  CSS */
+/* Slider  CSS */
+.mySlides {display:none;}
+ 
+/* Header elements CSS */
+#brand{
+vertical-align: middle;
+}
+#logo-text{
+font-family: 'Courgette', cursive;
+display: inline-block;
+font-size: 32px;
+vertical-align: middle;
+
+
+font-weight: bold;
+margin-left: 120px;
+}
+
+header #logo-text p{
+font-family: 'Courgette', cursive;
+
+text-align: center;
+
+
+-webkit-text-shadow: -1px -1px 0    #F0E68C,
+                      1px -1px 0    #F0E68C,
+                      1px 1px 0     #F0E68C,
+                      -1px 1px 0    #F0E68C,
+                      0 -1px 0  #F0E68C,
+                      0 1px 0   #F0E68C;
+-moz-text-shadow: -1px -1px 0   #F0E68C,
+                  1px -1px 0    #F0E68C,
+                  1px 1px 0     #F0E68C,
+                  -1px 1px 0    #F0E68C,
+                  0 -1px 0  #F0E68C,
+                  0 1px 0   #F0E68C;
+text-shadow: -1px -1px 0    #F0E68C,
+              1px -1px 0    #F0E68C,
+              1px 1px 0     #F0E68C,
+              -1px 1px 0 #f00,
+              0 -1px 0  #F0E68C,
+              0 1px 0   #F0E68C;
+/* CSS  animation */
+-webkit-animation: bounce 0.5s cubic-bezier(.87,-.41,.3,1.5) forwards;
+-moz-animation: bounce 0.5s cubic-bezier(.87,-.41,.3,1.5) forwards;
+animation: bounce 0.5s cubic-bezier(.87,-.41,.3,1.5) forwards;
+}
+@keyframes bounce{
+0%{
+  -webkit-transform: scale(0.7, 1);
+  top: -100px;
+  opacity: 0;
+}
+100%{
+  -webkit-transform: scale(1,1);
+  top: 70px;
+  opacity: 1;
+}
+}
+
+/* CSS for navigation*/
+nav{
+position: relative;
+
+height: 50px;
+background-color: #666;
+text-align: center;
+margin-top: 190px;
+border-radius: 8px;
+}
+/* CSS for unorderd list*/
+nav ul{
+margin: 0;
+padding: 0;
+}
+nav ul li{
+display: inline-block;
+list-style-type: none;
+}
+nav ul li a{
+padding: 14px 26px 12px 26px;
+display: block;
+text-decoration: none;
+color:#000;
+font-size: 20px;
+transition: all ease-in-out .3s;
+}
+nav ul li a.:hover{
+color: #fff;
+background-color: #999;
+}
+nav ul li:hover a{
+color: #000;
+background-color: #999;
+}
+/* CSS for submenue list*/
+nav ul li.has_submenu{
+position: relative;
+z-index: 999;
+-webkit-perspective: 1000px;
+-webkit-perspective-origin: center center;
+-moz-perspective: 1000px;
+-moz-perspective-origin: center center;
+perspective: 1000px;
+perspective-origin: center center;
+}
+nav ul.submenu{
+opacity: 0;
+position: absolute;
+ -moz-transform: rotateX(90deg);
+-moz-transform-origin: top;
+-webkit-transform: rotateX(90deg);
+-webkit-transform-origin: top;
+transform: rotateX(90deg);
+transform-origin: top;
+overflow: hidden;
+left: 0px;
+background-color:#ccc;
+width: 170px;
+z-index: 1000;
+-webkit-transition: ease-in-out .2s;
+-webkit-transition-property: opacity, transform;
+-moz-transition: ease-in-out .2s;
+-moz-transition-property: opacity, transform;
+transition: ease-in-out .2s;
+transition-property: opacity, transform;
+        
+}
+nav ul li.has_submenu:active ul.submenu,
+nav ul li.has_submenu:hover ul.submenu{
+opacity: 1;
+-webkit-transform: rotateX(0deg);
+-moz-transform: rotateX(0deg);
+transform: rotateX(0deg);
+}
+nav ul.submenu li{
+display: block;
+text-align: left;
+}
+
+nav ul.submenu li a{
+padding-left: 16px;
+background-color: #666;
+margin: 3px;
+}
+nav ul.submenu li a:hover{
+color: #fff;
+background-color: #999;
+}
+/* Image CSS */
+div.gallery {
+border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+/* body  CSS */
+body {
+margin:0;height:2000px;
+}
+ 
+#container-gallery{
+
+margin: 65px;
+}
+.icon-bar {
+position: absolute;
+top: 15%;
+left: 100%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+/* Social Media iconCSS */
+.icon-bar a {
+display: block;
+text-align: center;
+padding: 16px;
+-webkit-transition: all 0.3s ease;
+color: white;
+font-size: 20px;
+}
+
+.icon-bar a:hover {
+background-color: #000;
+}
+
+.facebook {
+background: #3B5998;
+color: white;
+}
+
+.twitter {
+background: #55ACEE;
+color: white;
+}
+
+.google {
+background: #dd4b39;
+color: white;
+}
+
+.linkedin {
+background: #007bb5;
+color: white;
+}
+
+.youtube {
+background: #bb0000;
+color: white;
+}
+
+.content {
+margin-left: 75px;
+font-size: 30px;
+}
+/* Subscribe CSS*/
+#grad1 input[type=submit] {
+display: inline-block;
+width: 20%;
+background-color: #f00;
+
+color: white;
+border:1px solid;
+padding: 2px;
+}
+#grad1 {
+
+position: absolute;
+top: 37%;
+width: 780px;
+height: 60px;
+background-image: linear-gradient(to right,#bbb,#eee ); /* Standard syntax (must be last) */
+background-image: -webkit-linear-gradient(to right,#bbb,#eee );
+padding-left: 20px
+    
+}
+#grad1 p{
+display: inline-block;
+
+
+}
+#grad1 input[type=text]
+{
+    width: 30%;
+    
+   height: 20px;
+  
+    clear: both;
+}
+
+
+#grad1 input[type=submit]:hover {
+opacity: 0.8;
+}
+ 
+main{
+background-color: #ddd;
+padding: 1px 45px 1px 45px;
+min-height: 560px;
+}w
+div#para {
+background-color: #fff;
+line-height: 30px;
+padding: 10px;
+margin: 10px;
+border: 1px solid #000;
+}
+/* footer CSS */
+footer{
+height: 320px;
+background-color: #000;
+color: #fff;
+}
+#copywright{
+      text-align: center;
+}
+#display-footer{
+display: flex;
+justify-content: space-between;
+
+}
+#display-footer div{
+line-height: 20px;
+margin: 15px;
+text-align:center;
+
+}
+.line{
+border-bottom: 1px solid black;
+position: relative;
+}
+
+
+#footer-images{
+ 
+ margin-top: 5px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ 
+ 
+ }
+ #main-nav ul li a.nav_style{
+      background-color: black;
+      color:white;
+ }
+.errorS{
+  border: 2px solid #000;
+  background-color: indianred;
+  color: white;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px 0;
+ 
+
+}
+
+.success{
+  border: 2px solid #000;
+  color: white;
+  background-color: green;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px 0;
+ 
+ 
+
+}
+.login{
+  border: 2px solid #000;
+  background-color: lightblue;
+  color: white;
+  border-radius: 2px;
+  padding: 10px;
+  margin: 10px 0;
+
+ 
+}
+span.error {
+    color: #900;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+button#profile{
+background-color: #666;
+border:none;
+ }
+ .sidenav {
+  height: 560px;
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+main{
+padding: 0;
+background-color: #fff;
+ }
+#prof {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#prof td, #prof th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#prof tr:nth-child(even){background-color: #f2f2f2;}
+
+#prof tr:hover {background-color: #ddd;}
+
+#prof th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000;
+  color: white;
+}
+/* embedded  CSS */
+@media screen and (max-width: 767px){
+#logo-text
+{
+display: none;
+}
+
+#display-footer{
+display: none;
+}
+
+}
+div#images{
+
+display: flex;
+
+flex-direction: column;
+float: right;
+justify-content: space-around;
+margin: 10px;
+
+}
+/* Main CSS */
+main{
+background-color: #fff;
+   margin-top: 65px;
+   
+}
+/* Body Images CSS */
+#Content-image{
+float: right;
+
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+transition: transform .2s;
+
+}
+#Content-image:hover {
+-ms-transform: scale(1.5);
+-webkit-transform: scale(1.5);
+ transform: scale(1.5);
+}
+#Content-image-two{
+float: right;
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+transition: transform .2s;
+}
+#Content-image-two:hover {
+-ms-transform: scale(1.5);
+-webkit-transform: scale(1.5);
+transform: scale(1.5);
+}
+ header{
+    background-color: none;
+    }
+@media screen and (min-width: 767px){
+#mob-nav{
+display: none;
+}
+  }
+    button#login, button#login1{
+    background-color: #666;
+    border: none;
+    }
+h1{
+text-decoration: none;
+}
+.position{
+margin-left: 300px;
+ }
+button{
+  background-color: #f00;
+  color: white;
+ 
+  height: auto;
+  border: none;
+  cursor: pointer;
+  width: auto;
+  background-color: #4CAF50;
+  text-decoration: none;
+}
+a{
+   text-decoration: none;
+ }
+ span.error {
+    color: #900;
+}

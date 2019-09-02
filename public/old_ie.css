@@ -1,0 +1,98 @@
+/* styles to make page work in IE8 or lower */
+
+/* Styles to set proper block level display for HTML5 Semantic elements */
+header:before{
+  content:'Notice: This website header may not appear correctly in this browser. Please upgrade for a better experience';
+  background-color: #777;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  border: 2px solid #f00;
+  font-size: 18px;
+  padding: 8px;
+}
+
+header,
+footer,
+nav,
+main,
+section,
+aside{
+  display: block;
+}
+.w3-content w3-display-container{
+display: block;
+}
+.w3-content w3-display-container:aft{
+  content:'Notice: This website slider may not appear supported in this browser. Please upgrade for a better experience';
+  background-color: #777;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  border: 2px solid #f00;
+  font-size: 18px;
+  padding: 8px;
+}
+.icon-bar{
+display: block;
+
+}
+body{
+display: block;
+}
+#wrapper{
+display: block;
+}
+
+#wrapper mob-nav{
+display: block;
+ }
+#wrapper mob-nav ul{
+  display: block;
+}
+
+#wrapper mob-nav ul li:hover ul{
+  display: block;
+}
+#wrapper main-nav{
+display: block;
+ }
+#wrapper main-nav ul{
+  display: block;
+}
+
+#wrapper mmain-nav ul li:hover ul{
+  display: block;
+}
+.imgcontainer{
+display: none;
+}
+main{
+display: block;
+}
+
+footer{
+display: block;
+}
+nav ul li.has_submenu:active ul.submenu,
+nav ul li.has_submenu:hover ul.submenu{
+  display: block;
+      }
+h1:before{
+  content:'Notice: This website may not appear correctly in this browser. Please upgrade for a better experience';
+  background-color: #777;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+  border: 2px solid #f00;
+  font-size: 18px;
+  padding: 8px;
+}
+
+ 
+wrapper{
+display: block;
+}
+header{
+display: block;
+}

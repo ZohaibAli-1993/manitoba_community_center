@@ -1,0 +1,64 @@
+ /* Print out CSS */
+body{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-top: 0;
+}
+#wrapper{
+  width: 100%;
+  position: relative;
+  padding-top: 1px;
+}
+/* Header CSS */
+header{
+
+  height: 80px;
+}
+/* utility CSS */
+#utility-nav {
+display: none;
+}
+#mob-nav {
+display: none;
+}
+#main-nav{
+display: none;
+}
+#mob{
+display: none;
+}
+header #mob-logo{
+
+display: none;
+}
+header #logo{
+  display: block;
+  float: right;
+  width: 70px;
+  height: 70px;
+
+}
+
+/* stuff to hide */
+nav,
+footer{
+  display:none;
+}
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}

@@ -1,0 +1,336 @@
+/* Mobile styles for devices uner 768px */
+
+body{
+font-family: 'Questrial', sans-serif;
+font-size: 16px;
+margin: 0;
+}
+
+#wrapper{
+width: 100%;
+background-color: #ddd;
+position: relative;
+}
+    /* Header CSS */
+header{
+background-color: #666;
+height: 40px;
+position:fixed;
+width: 100%;
+z-index: 10000;
+top: 0;
+opacity: 0.9;
+box-shadow: 0 4px 6px rgba(0,0,0,0.55);
+}
+      /* Logo CSS */
+header #mob-logo{
+position: absolute;
+
+left: 45px;
+}
+#utility-nav
+{
+display: none;
+
+}
+ 
+header #logo{
+display: none;
+}
+header #mob
+{
+vertical-align: middle;
+float: right;
+}
+header #mob #topnav
+{
+margin-right: 30px;
+}
+/* Sign Up CSS */
+.container input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+/* Set a style for buttons */
+.container button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+width: 100%;
+
+background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+position: relative;
+}
+
+img.avatar {
+width: 40%;
+border-radius: 50%;
+}
+
+.container {
+padding: 16px;
+}
+
+span.psw {
+float: right;
+padding-top: 16px;
+}
+
+/* The Modal (background) */
+#id01 {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+background-color: #fefefe;
+margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+border: 1px solid #888;
+width: 40%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+position: absolute;
+right: 25px;
+top: 0;
+color: #000;
+font-size: 35px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: red;
+cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+#main-nav{
+display: none;
+}
+/* styles for mobile navigation */
+nav#mob-nav{
+position: fixed;
+perspective: 1000px;
+perspective-origin: 100% 100%;
+-webkit-perspective: 1000px;
+-webkit-perspective-origin: 100% 100%;
+top:0px;
+left:0px;
+z-index: 10040;
+}
+nav#mob-nav a#menubutton{
+position: absolute;
+top: 5px;
+left: 5px;
+z-index: 10100;
+display: block;
+width: 32px;
+height: 33px;
+border: 2px solid #000;
+background-color: #ccc;
+background: linear-gradient(#ddd, #999);
+border-radius: 4px;
+box-shadow: 0px 2px 6px rgba(0,0,0,0.45);
+}
+      /* CSS for menu lines */
+nav#mob-nav a#menubutton span{
+display: block;
+height: 3px;
+background-color: #222;
+margin-bottom: 5px;
+margin-top: 6px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+      /* rules for main navigation menu list */
+nav#mob-nav ul#navlist{
+-webkit-transform: rotateX(90deg);
+transform: rotateX(90deg);
+opacity: 0;
+
+position:fixed;
+top: 40px;
+left: 5px;
+width: 150px;
+z-index: 10200;
+
+border: 1px solid #000;
+background-color: #eee;
+box-shadow: 0px 2px 6px rgba(0,0,0,0.55);
+
+transform-origin: top;
+transition: all ease-in-out 0.3s;
+-webkit-transform-origin: top;
+-webkit-transition: all ease-in-out 0.3s;
+}
+nav#mob-nav ul#navlist,
+nav#mob-nav ul#navlist li ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+nav#mob-nav ul#navlist li a{
+text-decoration: none;
+color: #000;
+display: block;
+padding: 5px 10px 5px 6px;
+border: 1px solid #000;
+font-size: 16px;
+background: linear-gradient(#ddd,#aaa);
+}
+
+nav#mob-nav ul#navlist li ul.submenu li a{
+padding: 5px 4px 5px 20px;
+font-size: 14px;
+background: linear-gradient(#fdd,#caa);
+}
+
+      /* Show the menu when hovered over <nav> */
+nav#mob-nav:hover ul#navlist{
+transform: rotateX(0deg);
+opacity: 1;
+}
+
+/* Subscribe  CSS */
+#grad1 {
+
+position: relative;
+width: 100%;
+height: 60px;
+background-image: linear-gradient(to right,#bbb,#eee ); /* Standard syntax (must be last) */
+
+}
+#grad1 p{
+display: inline-block;
+}
+#grad1 input[type=text] {
+width: 30%;
+
+height: 15px;
+
+border: 1px solid #ccc;
+clear: both;
+}
+input[type=submit]{
+background-color: #f00;
+color: white;
+
+height: 30px;
+
+
+cursor: pointer;}
+
+
+      /* End nav menu styles */
+main{
+margin-top: 50px;
+
+background-color: #fff;
+min-height: 300px;
+padding: 10px;
+line-height: 1.5em;
+}
+      
+div#images{
+display: flex;
+align-items: center;
+width: 100%;
+}
+       
+#footer-images{
+ 
+ margin-top: 5px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ 
+ 
+}
+      /*footer CSS*/
+footer{
+color: #eee;
+height: 78px;
+background-color: #444;
+}
+      
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+      
